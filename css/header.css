@@ -1,0 +1,35 @@
+
+.header
+{
+    background-image: url('./../img/banner.png');
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-title, .second-title
+{
+    font-size: 3.3rem;
+    text-align: center;
+    background-color: #4b565d;
+    opacity: 0.8;
+    margin: .8rem 0;
+    padding: .5rem 1rem;
+    font-weight: 100;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.ftop
+{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fcolumn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    /* // 1rem = 10px, 10px/16px = 62.5% */
+    font-size: 62.5%;
+
+
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-large {
+
+    width: 100%;
+    margin: 0;
+    background-color: rgba(81, 93, 100, 0.8);
+}
+
+.container {
+    max-width: 117rem;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+section {
+    padding: 8rem 0;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+/* =24px */
+p {
+    font-size: 1.4rem;
+}
+
+/* =14px */
+ul,
+li,
+a,
+span {
+    font-size: 1.4rem;
+}
+
+/* =14px? */

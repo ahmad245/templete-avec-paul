@@ -1,0 +1,40 @@
+
+.navbar
+{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+    max-width: 117rem;
+ 
+    margin: 0 auto;
+
+}
+.nav
+{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-items
+{
+    margin: 0 1.5rem;
+}
+.nav-link
+{
+    color: #FFF;
+    text-decoration: none;
+    padding: .8rem 1.4rem;
+    border: 2px  solid transparent;
+    transition: all .3s;
+ 
+}
+.nav-link:hover
+{
+    border: 2px  solid #4bcaff;
+    color: #4bcaff;
+}
